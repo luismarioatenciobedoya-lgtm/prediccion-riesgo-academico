@@ -11,23 +11,8 @@ from datetime import datetime
 import sys
 import os
 
+# Importar el procesador de datos
 from data_processor import DataProcessor
-```
-
-#### **Cambio 2: Copia el archivo**
-
-Copia el archivo `utils/data_processor.py` a la raíz del proyecto (junto a `app.py`)
-
-Tu estructura debe quedar:
-```
-prediccion_estudiantes/
-├── app.py
-├── data_processor.py    ← NUEVO (copiado de utils/)
-├── requirements.txt
-└── data/
-    └── Plantilla.xlsm
-
-from utils.data_processor import DataProcessor
 
 # Configuración de la página
 st.set_page_config(
